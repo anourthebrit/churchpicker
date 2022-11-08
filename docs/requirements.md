@@ -48,11 +48,11 @@ Story 3: As a church, we want to add our church to the site to avoid the relatio
 ## Software Requirements Specification
 ### Functional requirements
 
-* FR1: The system must ... (from UC1)
-* FR2: The system must ... (from all use cases)
-* FR3: The system shall ... (from UC1)
-* FR4: The system shall ... (from UC2)
-* FR5: The system shall ... (from UC3)
+* FR1: The system must ... (from UC?)
+* FR2: The system must ... (from UC?)
+* FR3: The system shall ... (from UC?)
+* FR4: The system shall ... (from UC?)
+* FR5: The system shall ... (from UC?)
 
 
 ### Non-Functional Requirements
