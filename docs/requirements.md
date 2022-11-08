@@ -48,14 +48,14 @@ Story 3: As a church, we want to add our church to the site to avoid the relatio
 ## Software Requirements Specification
 ### Functional requirements
 
-* FR1: The system must display postcode areas availble (from UC1)
-* FR2: The system must pull data from Open data Bristol and store it in a database locally for efficiency (from all use cases)
-* FR3: The system shall display libraries within selected area from database (from UC1)
-* FR4: The system shall display Library locations on a map (from UC2)
-* FR5: The system shall display contact information for libraries (from UC3)
+* FR1: The system must ... (from UC1)
+* FR2: The system must ... (from all use cases)
+* FR3: The system shall ... (from UC1)
+* FR4: The system shall ... (from UC2)
+* FR5: The system shall ... (from UC3)
 
 
 ### Non-Functional Requirements
-* NFR1: The system must produce accurate results (from UC1)
-* NFR2: The system shall return results efficiently (from UC2)
-* NFR3: The system shall have a user friendly interface (from all use cases)
+* NFR1: The system must ... (from UC?)
+* NFR2: The system shall ... (from UC?)
+* NFR3: The system shall ... (from UC?)
