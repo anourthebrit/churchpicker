@@ -6,7 +6,7 @@
 Christian looking for a church to attend.
 
 ### User stories
-Story 1: As a christian, I would like to understand where I stand on certain viewpoints and see if there are churches that hold to the same values.
+Story 1: As a Christian, I would like to understand where I stand on certain viewpoints and see if there are churches that hold to the same values.
 
 Story 2: As a christian, I want to see if there are any churches in my area which match my values.  
 
