@@ -24,10 +24,7 @@
     <!-- page 1 -->
     <div class="step-content current" data-step="1">
       <div class="fields">
-        <h2>Welcome! Please enter your name and city</h2>
-        <div class="rating">
-          <input type="text" name="name" id="name" placeholder="Name">
-        </div>
+        <h2>Welcome! Please enter your city below</h2>
         <div class="rating-footer">
           <input type="text" name="city" id="city" placeholder="City">
         </div>
