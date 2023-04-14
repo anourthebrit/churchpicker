@@ -153,8 +153,9 @@
         <?php
         $response = '';
         // Check if the form was submitted
-        if (isset($_POST['name'], $_POST['city'], $_POST['communion'], $_POST['service'], $_POST['network'], $_POST['female'], $_POST['baptism'])) {
+        if (isset($_POST['city'], $_POST['communion'], $_POST['service'], $_POST['network'], $_POST['female'], $_POST['baptism'])) {
           // Assign POST variables
+          $city = $_POST['city'];
           $communion = $_POST['communion'];
           $service = $_POST['service'];
           $network = $_POST['network'];
@@ -162,12 +163,10 @@
           $baptism = $_POST['baptism'];
           $urlA = "https://www.findachurch.co.uk/Search2.aspx?address=";
           $urlB = "&denom=";
-          $name = $_POST['name'];
-          $city = $_POST['city'];
           $denomination = "1";
         }
         ?>
-        <h2>Thank you <?= $name ?>! Let's see what options you have in <?= $city ?>...<h2>
+        <h2>Thank you! Your answers are below and time to  options you have in ...<h2>
       </ul>
         <li>Communion Frequency: <?= $communion ?></li>
         <li>Service Type: <?= $service ?></li>
@@ -175,7 +174,7 @@
         <li>Female Preference: <?= $female ?></li>
         <li>Baptism Preference: <?= $baptism ?></li>
       </ul>
-      <p><a href=<?php echo $urlA . $city . $urlB . $denomination ?> target="_blank">Click here to see your recommendations</a></p>
+      <p><a href=<?php echo $urlA . $city . $urlB . $denomination ?> target="_blank">Click here to be redirected to our friends at findachurch.co.uk to see your recommendations</a>.</p>
       </div>
     </div>
   </form>
