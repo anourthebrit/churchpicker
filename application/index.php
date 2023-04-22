@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <?php
   include 'config.php';
   ?>
@@ -152,23 +152,23 @@
             //switch logic to assign answers as cases
             switch ($answers) {
               //traditional
-              case "ababb":
+              case "aabbb":
                 $id = 1;
                 break;
               //non-denominational
-              case "baaaa":
+              case "bbaaa":
                 $id = 2;
                 break;
               //methodist
-              case "baaab":
+              case "babab":
                 $id = 3;
                 break;
               //denominational
-              case "aaaaa":
+              case "bbbaa":
                 $id = 4;
                 break;
               //anglican
-              case "abaab":
+              case "aabab":
                 $id = 5;
                 break;
               default:
