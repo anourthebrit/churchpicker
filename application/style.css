@@ -6,6 +6,7 @@ html {
   background: #aadaff linear-gradient(0deg, #aadaff 0%, #aadaff 80%, #1a1a1a 80%, #1a1a1a 100%) no-repeat;
   padding: 30px;
   height: 100%;
+  width: 100%;
 }
 input,textarea,select {
   outline: 0;
