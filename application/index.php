@@ -8,6 +8,7 @@
   include 'config.php';
   ?>
   <title>Church Picker</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -140,7 +141,6 @@
     <div class="step-content" data-step="7">
       <div class="result">
         <?php
-          $response = '';
           // Check if the form was submitted
           if (isset($_POST['city'], $_POST['communion'], $_POST['service'], $_POST['network'], $_POST['female'], $_POST['baptism'])) {
             // Assign POST variables
@@ -184,7 +184,7 @@
               // get the demonination id's from the array
               while ($row = $result->fetch_assoc()) {
                 $denomination = $row['Denom'];
-              }
+              }      // specific path set so show denominational selections
               echo "<h2>Thank you! Let's see what options you have in ". $city . "...<h2>";
               echo "<p><a href=" . $urlA . $city . $urlB . $denomination . ">Click here to see your recommendations</a></p>";
             } else { // specific path not set so show all churches
