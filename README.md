@@ -1,10 +1,4 @@
 # churchpicker
 
-Build a web app that asks helps Christians to understand what they're looking for in a church, then recommends churches that are a potential match in their area.
+The idea of this web application is to help Christians find a church where they can settle down. The application asks a series of questions and makes recommendations based on the answers. The potential of this application is to grow and ask more dynamic questions and make more specific recomnmendations.
 
-1. [Planning](documentation/planning.md)
-2. [Requirements](documentation/requirements.md)
-3. [Design](documentation/design.md)
-4. [Implementation](documentation/implementation.md)
-5. [Testing](documentation/testing.md)
-6. [Deployment](documentation/deployment.md)
