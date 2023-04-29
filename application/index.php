@@ -29,7 +29,7 @@
     <div class="step-content current" data-step="1">
       <div class="fields">
         <h2>Welcome!</h2>
-        <h2>Where would you like to go to Church?</h2>
+        <h2>Where would you like to go to church?</h2>
         <div class="rating-footer">
           <input type="text" name="city" id="city" placeholder="Town/City">
         </div>
@@ -80,7 +80,7 @@
     <!-- page 4 -->
     <div class="step-content" data-step="4">
       <div class="fields">
-        <h2>Do you prefer independant churches over churches that belong to a larger denomination?</h2>
+        <h2>Do you prefer independent churches over churches that belong to a larger denomination?</h2>
         <div class="rating">
           <input type="radio" name="network" id="radio7" value="a">
           <label for="radio7">A</label>
@@ -100,7 +100,7 @@
     <!-- page 5 -->
     <div class="step-content" data-step="5">
       <div class="fields">
-        <h2>Are you comfortable with a Female Church Leader?</h2>
+        <h2>Are you comfortable with a female church Leader?</h2>
         <div class="rating">
           <input type="radio" name="female" id="radio10" value="a">
           <label for="radio10">A</label>
@@ -120,7 +120,7 @@
     <!-- page 6 -->
     <div class="step-content" data-step="6">
       <div class="fields">
-        <h2>Would you agree with professing Children being baptised?</h2>
+        <h2>Would you agree with professing children being baptised?</h2>
         <div class="rating">
           <input type="radio" name="baptism" id="radio13" value="a">
           <label for="radio13">A</label>
