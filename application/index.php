@@ -15,7 +15,8 @@
 
 <body>
   <form class="survey-form" method="post" action="">
-    <h1>Church Picker</h1>
+    
+    <h1><a href="/">Church Picker</a></h1>
     <div class="steps">
       <div class="step current"></div>
       <div class="step"></div>
