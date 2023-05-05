@@ -5,7 +5,7 @@ The idea of this web application is to help Christians find a church where they 
 Link to the application here:
 https://churchpicker.000webhostapp.com/
 
-
+<hr/>
 Credit to David Adams of Codeshack.io for the php survey tutorial found here:
 https://codeshack.io/multi-step-survey-form-js-php/
 
