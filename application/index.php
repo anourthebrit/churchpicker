@@ -29,13 +29,13 @@
     <div class="step-content current" data-step="1">
       <div class="fields">
         <h2>Welcome!</h2>
-        <h2>Where would you like to go to church?</h2>
-        <div class="rating-footer">
-          <input type="text" name="city" id="city" placeholder="Town/City">
-        </div>
-      </div>
-      <div class="buttons">
-        <a href="#" class="btn" data-set-step="2">Next</a>
+          <h2>Where would you like to go to church?</h2>
+          <div class="rating-footer">
+            <input type="text" name="city" id="city" placeholder="Town/City" required>
+          </div>
+          <div class="buttons">
+             <input type="submit" name="city" value="Next" class="btn" data-set-step="2">
+          </div>
       </div>
     </div>
     <!-- page 2 -->
@@ -43,9 +43,9 @@
       <div class="fields">
         <h2>Would you prefer a church where you can take communion every week?</h2>
         <div class="rating">
-          <input type="radio" name="communion" id="radio1" value="a">
+          <input type="radio" name="communion" id="radio1" value="a" required checked>
           <label for="radio1">A</label>
-          <input type="radio" name="communion" id="radio2" value="b">
+          <input type="radio" name="communion" id="radio2" value="b" required>
           <label for="radio2">B</label>
         </div>
         <div class="rating-footer">
@@ -54,17 +54,18 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="btn" data-set-step="3">Next</a>
+        <input type="submit" name="communion" value="Back" class="btn" data-set-step="1">
+        <input type="submit" name="communion" value="Next" class="btn" data-set-step="3">
       </div>
     </div>
     <!-- page 3 -->
     <div class="step-content" data-step="3">
       <div class="fields">
-        <h2>Would you prefer a more traditional over contemporary style of worship?</h2>
+        <h2>Do you prefer a more contemporary service over a traditional one?</h2>
         <div class="rating">
-          <input type="radio" name="service" id="radio4" value="a">
+          <input type="radio" name="service" id="radio4" value="a" required checked>
           <label for="radio4">A</label>
-          <input type="radio" name="service" id="radio5" value="b">
+          <input type="radio" name="service" id="radio5" value="b" required>
           <label for="radio5">B</label>
         </div>
         <div class="rating-footer">
@@ -73,8 +74,8 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="btn" data-set-step="2">Prev</a>
-        <a href="#" class="btn" data-set-step="4">Next</a>
+        <input type="submit" name="service" value="Back" class="btn" data-set-step="2">
+        <input type="submit" name="service" value="Next" class="btn" data-set-step="4">
       </div>
     </div>
     <!-- page 4 -->
@@ -82,9 +83,9 @@
       <div class="fields">
         <h2>Do you prefer independent churches over churches that belong to a larger denomination?</h2>
         <div class="rating">
-          <input type="radio" name="network" id="radio7" value="a">
+          <input type="radio" name="network" id="radio7" value="a" required checked>
           <label for="radio7">A</label>
-          <input type="radio" name="network" id="radio8" value="b">
+          <input type="radio" name="network" id="radio8" value="b" required>
           <label for="radio8">B</label>
         </div>
         <div class="rating-footer">
@@ -93,18 +94,18 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="btn" data-set-step="3">Prev</a>
-        <a href="#" class="btn" data-set-step="5">Next</a>
+        <input type="submit" name="network" value="Back" class="btn" data-set-step="3">
+        <input type="submit" name="network" value="Next" class="btn" data-set-step="5">
       </div>
     </div>
     <!-- page 5 -->
     <div class="step-content" data-step="5">
       <div class="fields">
-        <h2>Are you comfortable with a female church Leader?</h2>
+        <h2>Are you comfortable with having a female church leader?</h2>
         <div class="rating">
-          <input type="radio" name="female" id="radio10" value="a">
+          <input type="radio" name="female" id="radio10" value="a" required checked>
           <label for="radio10">A</label>
-          <input type="radio" name="female" id="radio11" value="b">
+          <input type="radio" name="female" id="radio11" value="b" required>
           <label for="radio11">B</label>
         </div>
         <div class="rating-footer">
@@ -113,18 +114,18 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="btn" data-set-step="4">Prev</a>
-        <a href="#" class="btn" data-set-step="6">Next</a>
+        <input type="submit" name="female" value="Back" class="btn" data-set-step="4">
+        <input type="submit" name="female" value="Next" class="btn" data-set-step="6">
       </div>
     </div>
     <!-- page 6 -->
     <div class="step-content" data-step="6">
       <div class="fields">
-        <h2>Would you agree with professing children being baptised?</h2>
+        <h2>Are you happy with professing children being baptised?</h2>
         <div class="rating">
-          <input type="radio" name="baptism" id="radio13" value="a">
+          <input type="radio" name="baptism" id="radio13" value="a" required checked>
           <label for="radio13">A</label>
-          <input type="radio" name="baptism" id="radio14" value="b">
+          <input type="radio" name="baptism" id="radio14" value="b" required>
           <label for="radio14">B</label>
         </div>
         <div class="rating-footer">
@@ -133,8 +134,8 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="btn" data-set-step="5">Prev</a>
-        <input type="submit" class="btn" name="submit" value="Submit">
+        <input type="submit" name="baptism" value="Back" class="btn" data-set-step="5">
+        <input type="submit" name="baptism" value="Finish" class="btn">
       </div>
     </div>
     <!-- page 7 -->
